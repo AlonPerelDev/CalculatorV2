@@ -1,0 +1,55 @@
+.item1 { grid-area: one; }
+.item2 { grid-area: two; }
+.item3 { grid-area: three; }
+.item4 { grid-area: four; }
+.item5 { grid-area: five; }
+.item6 { grid-area: six; }
+.item7 { grid-area: seven; }
+.item8 { grid-area: eight; }
+.item9 { grid-area: nine; }
+.item0 { grid-area: zero; }
+.multiply { grid-area: multiply; }
+.minus { grid-area: minus; }
+.plus { grid-area: plus; }
+.equal { grid-area: equal; }
+.dot { grid-area: dot; }
+.round { grid-area: round; }
+.result { grid-area: result; }
+.divide { grid-area: divide; }
+.exp { grid-area: exp; }
+.rnd { grid-area: rnd; }
+.ac { grid-area: ac; }
+.mc { grid-area: mc; }
+.ms { grid-area: ms; }
+.msv { grid-area: msv; }
+.mplus { grid-area: mplus; }
+.mminus { grid-area: mminus; }
+.mr { grid-area: mr; }
+.typed { grid-area: typed; }
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'typed typed typed typed typed'
+  'msv result result result result'
+  'seven eight nine plus mc'
+  'four five six minus mminus'
+  'one two three multiply mplus'
+  'zero dot exp divide mr'
+  'round rnd ac equal ms';
+
+  gap: 5px;
+  background-color: #ece5e5;
+  padding: 7px;
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.grid-container > div {
+  background-color: rgba(245, 237, 237, 0.8);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 20px;
+}
